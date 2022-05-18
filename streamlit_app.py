@@ -13,4 +13,4 @@ col2.metric("temperature","70","1.2")
 col3.metric("temperature","70","1.2")
 d=st.date_input(
   "when's your birthday", datetime.date(2022,1,3))
-st.write("your birthday is:',d)
+st.write("your birthday is:",d)
